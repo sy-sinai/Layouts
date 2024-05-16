@@ -13,41 +13,42 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <BoxView Color="Green" />
-        <Label Text="Green"
+        <BoxView Color="MistyRose" />
+        <Label Text="MistyRose"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <BoxView Grid.Column="1"
-                 Color="Blue" />
+                 Color="MediumOrchid" />
         <Label Grid.Column="1"
-               Text="Blue"
+               Text="MediumOrchid"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <BoxView Grid.Row="1"
-                 Color="Teal" />
+                 Color="Orchid" />
         <Label Grid.Row="1"
-               Text="Turquoise"
+               Text="Orchid"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <BoxView Grid.Row="1"
                  Grid.Column="1"
-                 Color="Purple" />
+                 Color="Thistle" />
         <Label Grid.Row="1"
                Grid.Column="1"
-               Text="Purple"
+               Text="Thistle"
                HorizontalOptions="Center"
                VerticalOptions="Center" />
         <BoxView Grid.Row="2"
-                 Grid.ColumnSpan="2"
-                 Color="Red" />
-        
-        
-        <Button Text="Stack Layout"
+                 Grid.Column="2"
+                 Color="LavenderBlush" />
+
+
+        <Button Text="Stack Layout->"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"
-                Clicked="OnButtonClicked" 
-                Grid.Row="2"
-                Grid.ColumnSpan="2"/>
+                Clicked="OnButtonClicked"
+                BackgroundColor="MediumPurple"
+                Grid.Row="1"
+                Grid.Column="2"/>
         
     </Grid>
 </ContentPage>
