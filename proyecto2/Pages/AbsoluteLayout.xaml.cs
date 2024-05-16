@@ -6,4 +6,9 @@ public partial class AbsoluteLayout : ContentPage
 	{
 		InitializeComponent();
 	}
+
+    async void OnButtonClicked(object sender, EventArgs args)
+    {
+        Navigation.PushAsync(new MainPage());
+    }
 }
